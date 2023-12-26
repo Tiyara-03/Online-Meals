@@ -1,0 +1,76 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* home section */
+#home{
+   height: 200px;
+   padding: 3px  28px;
+
+}
+
+#home::before{
+    height: 400px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+
+/* services section */
+
+#services{
+    flex-direction: column;
+}
+
+#services.box
+{
+    /* border:9px solid rgb(49, 64, 74) ; */
+    padding: 14px;
+    /* border: 5px solid rgb(9, 239, 9); */
+    margin: 2px 0px;
+    border-radius: 60px;
+    margin-bottom:20px;
+    /* background-color: #eeeed1; */
+    /* background-color: #627286; */
+    /* background-color: #353d48; */
+    /* background-color: #353e49; */
+    /* opacity: 0.6; */
+    background-color: rgb(68 79 93);
+
+}
+
+
+/* clints section */
+#clints{
+   flex-wrap: wrap;
+   
+}
+
+#clint img{
+    width: 66px;
+    padding: 2px 8px;
+    height: auto;
+}
+ #contact-box form{
+    width: 80%;
+ }
+
+/* utility classes */
+.h-primary{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 13px; 
+    padding: 4px 8px;
+}
